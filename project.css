@@ -1,0 +1,93 @@
+@charset "utf-8"; 
+
+body{
+    
+    padding: 0;
+    margin: 0;
+}
+#pic
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(cab.jpg);
+    float:right;
+    height: 100vh;
+    width:120vh;
+    background-position: center;
+}
+#main
+{
+    position: absolute;
+    top:30%;
+    left:10%;
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+}
+#set
+{
+    width: 100%;
+    font-size: 30px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom:1px solid black;
+}
+#set input
+{
+    outline:none;
+    border:none;
+    background:none;
+    font-size: 15px;
+    font-family:sans-serif;
+    font-weight: 100;
+}
+h1
+{
+    font-size:30px;
+    font-family: sans-serif;
+}
+#btn
+{
+    height: 40px;
+    width:70px;
+    border:none;
+    font-size: 15px;
+    font-family:sans-serif;
+    color: white;
+     background: black;
+    margin-top: 20px;
+    border-radius: 80px;
+    transition: 03s;
+}
+#btn1
+{
+    border:none;
+    font-size: 15px;
+    font-family:sans-serif;
+    color: black;
+     background: none;
+     height: 40px;
+    width:70px;
+    margin-top: 20px;
+    margin-left:20px;
+}
+
+#btn1:hover
+{
+    border:none;
+    font-size: 15px;
+    font-family:sans-serif;
+    color: white;
+     background: black;
+     height: 40px;
+    width:70px;
+    margin-top: 20px;
+    border-radius: 80px;
+}
+p
+{
+    position: absolute;
+    font-size: 35px;
+    top:10%;
+    left:50%;
+    font-family:monospace;
+    color:white;
+}
